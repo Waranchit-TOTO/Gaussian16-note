@@ -1,0 +1,13 @@
+%nproc=16
+%mem=32Gb
+%chk=CH2O-Neu-td.chk
+# b3lyp/6-31+g(d,p) Int=(UltraFine) scf=(qc, maxcycle=2000)
+# TD=(Nstates=20)
+
+Example of CH2O-Neutral
+
+0 1
+ C,0,0.,0.,-0.5268299682
+ H,0,0.,-0.9414099542,-1.1121033655
+ H,0,0.,0.9414099542,-1.1121033655
+ O,0,0.,0.,0.6828044992
