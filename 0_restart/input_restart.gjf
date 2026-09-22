@@ -1,0 +1,9 @@
+%nproc=set
+%mem=44Gb
+%oldchk=need_checkpoint_file_name.chk
+%chk=new_checkpoint_file_name.chk
+#p func/basis  calculation-seup geom=check 
+
+Do not put geomerty coordinate, will read from oldcheckpoint, except the charge and spin multiplicity.
+
+0 1

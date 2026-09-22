@@ -1,6 +1,9 @@
 # Gaussian16-note
 Collect the template for basics and advance Gaussian run.
 
+## restart
+
+
 ## IRC simulation for R-TS-P process
 Folder "1_IRC-calculation-TS" contain the input example for simulate the intrinsic reaction coordinate (IRC). for the reaction of Reactant (R) --> Transition State (TS) --> Product (P)
 The step of calculaiton
@@ -23,4 +26,8 @@ Just a normal optimzation and also save the frequency. Don't think about the ord
 1. edit basis set to what you want and remove the section after atomic coordinate.
 2. put your coordinate and edit the spin multipkicity to yours.
 3. run
+
+## TDDFT for UV spectra and orbital simulation
+look at input "input_td.gjf" for UV spectra (open with gaussview)
+look at "input_orbital.gjf" for orbital plot
 
