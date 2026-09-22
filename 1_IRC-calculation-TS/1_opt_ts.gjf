@@ -1,7 +1,7 @@
 %nproc=16
 %mem=32Gb
 %chk=name_checkpoint_file.chk
-#p wB97XD/Gen  opt=(calcall,ts,maxcycle=1000) freq 
+#p wB97XD/Gen  opt=(calcall,ts,noeigentest,maxcycle=1000) freq 
 #scf=(qc,maxcycle=2000)
 
 m1n2k0 name of job
