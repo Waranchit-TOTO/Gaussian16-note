@@ -16,8 +16,8 @@
 module load Gaussian/16.C.02-AVX2      	#load gaussian version16
 which g16
 inp=$1
-basename="{inp%.*}"
-logname="{$basename}.log"
+basename="${inp%.*}"
+logname="${basename}.log"
 
 FILENAME=$inp      # please change the FILENAME
 
